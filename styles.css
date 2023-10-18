@@ -1,0 +1,93 @@
+body {
+    background-color:hsl(216, 12%, 8%);
+    
+    font-family: 'Overpass', sans-serif;
+    text-align: left;
+  }
+  
+
+  h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+  }
+  
+  p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+  }
+ 
+  .btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    background: hsl(25, 97%, 53%);
+    padding: 15px 120px 15px 120px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ff8400;
+    background-image: -webkit-linear-gradient(top, #ff8400, #ffa200);
+    background-image: -moz-linear-gradient(top, #ff8400, #ffa200);
+    background-image: -ms-linear-gradient(top, #ff8400, #ffa200);
+    background-image: -o-linear-gradient(top, #ff8400, #ffa200);
+    background-image: linear-gradient(to bottom, #ff8400, #ffa200);
+    text-decoration: none;
+  }
+  
+  .btn-container {
+    color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    margin: 3%;
+    
+    }
+  
+
+  .btn-raiting {
+    -webkit-border-radius: 135;
+    -moz-border-radius: 135;
+    border-radius: 100vh;
+    font-family: 'Overpass', sans-serif;
+    color:  hsl(0, 0%, 100%);
+    font-size: 15px;
+    background: hsl(216, 12%, 54%, 0.1);
+    padding: 4% 6%;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  .btn-raiting:hover {
+    background: hsl(217, 12%, 63%);
+    text-decoration: none;
+  }
+
+  .container1 {
+    background-color:  hsl(213, 19%, 18%);
+    border-radius: 15px;
+    margin: 10% 25%;
+    padding: 3% 10%;
+ }
+
+ .icon-star {
+    background-color: hsl(216, 12%, 54%, 0.1);
+    border-radius: 100vh;
+    float: left;
+    padding: 2.5%;
+    margin: 4%;
+    margin-bottom: 1.2rem;
+    height: auto;
+    width: 1rem;
+ }
+
+ .jokudiv {
+  display: flex;
+  flex-direction: column;
+ }
